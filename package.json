@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky",
-    "publish": "wrangler publish src/index.js",
+    "deploy": "wrangler deploy src/index.js",
     "develop": "wrangler dev src/index.js"
   },
   "type": "module",
