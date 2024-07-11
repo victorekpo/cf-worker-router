@@ -4,20 +4,12 @@ import { Buffer } from 'buffer'
 // Create a new router
 const router = Router()
 
-/*
-Our index route, a simple hello world.
-*/
+
 router.get("/", () => {
   return new Response("Hello, world! This is the root page of your Worker template.")
 })
 
-/*
-This route demonstrates path parameters, allowing you to extract fragments from the request
-URL.
-
-Try visit /example/hello and see the response.
-*/
-router.get("/example/:text", ({ params }) => {
+router.get("/base64/:text", ({ params }) => {
   // Decode text like "Hello%20world" into "Hello world"
   let input = decodeURIComponent(params.text)
 

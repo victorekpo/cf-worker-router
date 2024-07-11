@@ -19,3 +19,5 @@ Once you are ready, you can publish your code by running the following command:
 ```
 wrangler publish
 ```
+
+[wrangler config](https://developers.cloudflare.com/workers/wrangler/configuration/)
