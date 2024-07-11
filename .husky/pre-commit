@@ -2,5 +2,5 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-sh ./precommit.sh
+sh ./.husky/precommit.sh
 
