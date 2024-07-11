@@ -1,5 +1,5 @@
 #!/bin/sh
-ls
+pwd
 FILE="../wrangler.toml"
 if [ -f "$FILE" ]; then
   sed -i '' -e 's/account_id = ".*"/account_id = "************"/' $FILE
