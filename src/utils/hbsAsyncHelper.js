@@ -6,7 +6,7 @@ import { registerAsyncHelper } from 'hbs-async-render'
  * Register an asynchronous helper that waits for a second and then resolves with some information
  * that is going to be rendered in the place where `asyncTest` has been used in the Handlebar templates.
  */
-export const registerHB = () => registerAsyncHelper(Handlebars,'asyncTest', function (options, context) {
+export const registerHBHelper = () => registerAsyncHelper(Handlebars,'asyncTest', function (options, context) {
 
     return new Promise((resolve, reject) => {
         setTimeout(

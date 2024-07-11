@@ -21,3 +21,5 @@ wrangler publish
 ```
 
 [wrangler config](https://developers.cloudflare.com/workers/wrangler/configuration/)
+[handlebars](https://marnixkok.nl/news/blog/handlebars-templates-in-cloudflare-workers)
+[serverless rendering](https://blog.cloudflare.com/serverless-rendering-with-cloudflare-workers)

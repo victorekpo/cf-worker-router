@@ -1,11 +1,11 @@
 import { Router } from 'itty-router'
 import { base64Handler, postHandler, rootHandler } from './routers'
-import { registerHB } from './utils/hbsRender.js'
+import { registerHBHelper } from './utils/hbsAsyncHelper.js'
 import '../assets/pages.js';
 import '../assets/partials.js';
 
 // Register HB
-registerHB();
+registerHBHelper();
 
 // Create a new router
 const router = Router();
